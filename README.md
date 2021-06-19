@@ -1,3 +1,3 @@
 # LaravelBlog
  
-[LaravelBlog](carlitosbootstrap.great-site.net)
+link del sitio: carlitosbootstrap.great-site.net
