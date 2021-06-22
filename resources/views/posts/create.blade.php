@@ -11,7 +11,7 @@
    </div>
    <div class="form-group">
     {{Form::label('body','Body')}}
-    {{Form::textarea('body','',['id'=>'article-ckeditor','class'=>'form-control', 'placeholder'=>'body text'])}}
+    {{Form::textarea('body','',['id'=>'article-ckeditor','class'=>'form-control', 'placeholder'=>'body text', 'value'=> 'hola mundo'])}}
 
 </div>
 <div class="form-group">
@@ -19,5 +19,11 @@
 </div>
 {{Form::submit('Submit', ['class'=>'btn btn-primary'])}}
    {!! Form::close() !!}
+   <div id="editor">
+      <header data-inline-inject="true">
+         <h2>Gone traveling</h2>
+         <h3>Monthly travel news and inspiration</h3>
+      </header>
+  </div>
 
 @endsection
